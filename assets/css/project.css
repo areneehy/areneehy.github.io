@@ -1,0 +1,62 @@
+/*-----*/
+/*Text*/
+/*----*/
+
+.heavyweight {
+  font-weight: bold;
+}
+
+.highlight {
+  color: #f7c331;
+}
+
+.problem {
+  border: 1px solid;
+}
+
+span {
+  color: #f7c331;
+}
+
+.left-align li {
+  text-align: left;
+  line-height: 1.9;
+}
+
+h3 {
+  padding-top: 3%;
+}
+
+header h3 {
+  padding-top: .1%;
+}
+
+.standalone {
+  line-height: 3;
+}
+
+.no-decoration {
+  list-style: none;
+}
+
+/*-----*/
+/*Images*/
+/*----*/
+
+img {
+  border: 1px solid #6b7a8f;
+}
+
+.key-screen img {
+  width: 65%;
+  margin: 2%;
+}
+
+.key-screen-small img {
+  display: block;
+  margin: 10px auto;
+}
+
+footer img {
+  border: none;
+}

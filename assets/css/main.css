@@ -1,0 +1,142 @@
+/*============*/
+/*Tests*/
+/*============*/
+
+/*.project-1 {
+  background-color: blue;
+  }
+
+.project-2 {
+  background-color: green;
+  }
+
+.project-3 {
+  background-color: yellow;
+  }*/
+
+  /*.container {
+    background-color: #dcc7aa;
+  }*/
+
+/*============*/
+/*Page Display*/
+/*============*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px;
+}
+
+.name {
+  width: 100%;
+}
+
+.work-type {
+  width: 100%;
+}
+
+.skills {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+}
+
+.project {
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+/*============*/
+/*Text Display*/
+/*============*/
+
+* {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #6b7a8f;
+}
+
+.skills span {
+  background-color: #f7c331;
+  color: white;
+  padding: 1%;
+  line-height:2;
+}
+
+.skills, .work-type {
+  padding-bottom: 2%;
+}
+
+hr {
+  border:solid 1px #3c3c3c;
+  width: 96%;
+}
+
+footer, header {
+  background-color: #f7882f;
+}
+
+header h1, header h3 {
+  color: white;
+}
+
+h2, h3 {
+  color: #003fa3;
+}
+
+.intro h3 {
+  padding-top: 1.6%;
+}
+
+hr {
+  border: 1px dotted #6b7a8f;
+}
+
+footer {
+  margin-top: 3.5%;
+}
+
+/*============*/
+/*Images*/
+/*============*/
+.responsive-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto
+}
+
+.project-image {
+  height: 200px;
+  border: 1px solid #003fa3;
+}
+
+footer {
+  padding: .7%;
+}
+
+.icon {
+  padding-right: 12px;
+}
+/*============*/
+/*Responsive*/
+/*============*/
+
+@media screen and (min-width: 550px) {
+  .project {
+    width: 50%;
+  }
+
+@media screen and (min-width: 769px) {
+  .project {
+    width: calc(100% / 3);
+  }
+  /*.project-2 {
+    width: calc(100% / 3);
+  }
+  .project-3 {
+    width: calc(100% / 3);
+  }*/
+}
