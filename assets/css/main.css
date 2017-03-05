@@ -44,7 +44,7 @@
   width: 100%;
 }
 
-.project {
+.project, .dev-project {
   width: 100%;
   padding-bottom: 2%;
 }
@@ -99,6 +99,25 @@ footer {
   margin-top: 3.5%;
 }
 
+.dev-project {
+  background-color: #003fa3;
+  padding: 1%;
+  margin: 1%;
+}
+
+.dev-project h3, .dev-project p, .dev-project a {
+  color: white;
+}
+
+.dev-project span {
+  color: #f7882f;
+  font-weight: bold;
+}
+
+/*.dev-project h3 {
+  color: #f7c331;
+}*/
+
 /*============*/
 /*Images*/
 /*============*/
@@ -125,18 +144,12 @@ footer {
 /*============*/
 
 @media screen and (min-width: 550px) {
-  .project {
-    width: 50%;
+  .project, .dev-project {
+    width: 46%;
   }
 
 @media screen and (min-width: 769px) {
-  .project {
-    width: calc(100% / 3);
+  .project, .dev-project {
+    width: calc(88% / 3);
   }
-  /*.project-2 {
-    width: calc(100% / 3);
-  }
-  .project-3 {
-    width: calc(100% / 3);
-  }*/
 }
