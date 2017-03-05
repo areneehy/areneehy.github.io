@@ -144,12 +144,18 @@ footer {
 /*============*/
 
 @media screen and (min-width: 550px) {
-  .project, .dev-project {
+  .dev-project {
     width: 46%;
+  }
+  .project {
+    width: 50%;
   }
 
 @media screen and (min-width: 769px) {
-  .project, .dev-project {
+  .dev-project {
     width: calc(88% / 3);
+  }
+  .project {
+    width: calc(100%/3);
   }
 }
