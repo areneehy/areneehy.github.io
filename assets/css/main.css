@@ -100,12 +100,25 @@ footer {
 }
 
 .dev-project {
-  background-color: #003fa3;
   padding: 1%;
   margin: 1%;
+  border: 2px solid #003fa3;
 }
 
-.dev-project h3, .dev-project p, .dev-project a {
+/*.dev-project h3, .dev-project p, .dev-project a {
+  color: white;
+}*/
+
+.dev-project a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: #003fa3;
+  font-size: 1.2em;
+  padding: 1.5%;
+}
+
+.dev-project a:hover {
+  background-color: #003fa3;
   color: white;
 }
 
@@ -145,7 +158,7 @@ footer {
 
 @media screen and (min-width: 550px) {
   .dev-project {
-    width: 46%;
+    width: 45%;
   }
   .project {
     width: 50%;
@@ -153,7 +166,7 @@ footer {
 
 @media screen and (min-width: 769px) {
   .dev-project {
-    width: calc(88% / 3);
+    width: calc(86% / 3);
   }
   .project {
     width: calc(100%/3);
