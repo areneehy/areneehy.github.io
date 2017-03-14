@@ -127,6 +127,14 @@ footer {
   font-weight: bold;
 }
 
+.div-box {
+  width: 70%;
+  margin: auto;
+}
+
+.div-box p {
+  text-align: center;
+}
 /*.dev-project h3 {
   color: #f7c331;
 }*/
