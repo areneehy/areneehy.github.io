@@ -22,6 +22,25 @@
 /*Page Display*/
 /*============*/
 
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+footer {
+   position:fixed;
+   bottom:0;
+   left:0;
+   right:0;
+}
+
+body{
+  padding-bottom: 7%;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -55,44 +74,42 @@
 
 * {
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #6b7a8f;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+  padding-top: 15%;
 }
 
 .skills span {
-  background-color: #f7c331;
+  background-color: #136fd1;
   color: white;
   padding: 1%;
   line-height:2;
+  border-radius: 15px;
 }
 
 .skills, .work-type {
   padding-bottom: 2%;
 }
 
-hr {
-  border:solid 1px #3c3c3c;
-  width: 96%;
+h2, h3 {
+  color: #136fd1;
 }
 
 footer, header {
-  background-color: #f7882f;
+  background-color: #13b5ba;
 }
 
 header h1, header h3 {
   color: white;
 }
 
-h2, h3 {
-  color: #003fa3;
-}
-
 .intro h3 {
   padding-top: 1.6%;
-}
-
-hr {
-  border: 1px dotted #6b7a8f;
 }
 
 footer {
@@ -102,7 +119,7 @@ footer {
 .dev-project {
   padding: 1%;
   margin: 1%;
-  border: 2px solid #003fa3;
+  border: 2px solid #e8e8e8;
 }
 
 /*.dev-project h3, .dev-project p, .dev-project a {
@@ -112,18 +129,24 @@ footer {
 .dev-project a {
   margin: 0 25px;
   text-decoration: none;
-  color: #003fa3;
+  color: #13b5ba;
   font-size: 1.2em;
   padding: 1.5%;
 }
 
 .dev-project a:hover {
-  background-color: #003fa3;
+  background-color: #13b5ba;
+  border-radius: 15px;
   color: white;
 }
 
+/*.project {
+  background-color: grey;
+  margin: 1%;
+}*/
+
 .dev-project span {
-  color: #f7882f;
+  color: #c0c0c0;
   font-weight: bold;
 }
 
@@ -150,11 +173,12 @@ footer {
 
 .project-image {
   height: 200px;
-  border: 1px solid #003fa3;
+  border: 1px solid #e8e8e8;
 }
 
 footer {
   padding: .7%;
+  margin-top: 70px;
 }
 
 .icon {

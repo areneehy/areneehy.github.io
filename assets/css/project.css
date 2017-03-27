@@ -1,3 +1,7 @@
+.project-container {
+    width: 70%;
+    margin: auto;
+}
 /*-----*/
 /*Text*/
 /*----*/
@@ -7,15 +11,15 @@
 }
 
 .highlight {
-  color: #f7c331;
+  color: #13b5ba;
 }
 
 .problem {
-  border: 1px solid;
+  border: 1px solid #e8e8e8;
 }
 
 span {
-  color: #f7c331;
+  color: #13b5ba;
 }
 
 .left-align li {
@@ -27,16 +31,25 @@ h3 {
   padding-top: 3%;
 }
 
+p {
+  padding: 1.5%;
+}
+
 header h3 {
   padding-top: .1%;
 }
 
 .standalone {
   line-height: 3;
+  font-weight: bold;
 }
 
 .no-decoration {
   list-style: none;
+}
+
+.title{
+  padding-top: 15%;
 }
 
 /*-----*/
@@ -44,7 +57,7 @@ header h3 {
 /*----*/
 
 img {
-  border: 1px solid #6b7a8f;
+  border: 1px solid #e8e8e8;
 }
 
 .key-screen img {
@@ -59,4 +72,10 @@ img {
 
 footer img {
   border: none;
+}
+
+@media screen and (max-width: 880px) {
+  .title {
+    margin-top: 25%;
+  }
 }
